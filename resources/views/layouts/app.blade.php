@@ -1,8 +1,8 @@
-<!-- resources/views/layouts/app.blade.php -->
 <!DOCTYPE html>
-<html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <title>@yield('title')</title>
+    @include('partials.head')
 </head>
 <body>
     <header>

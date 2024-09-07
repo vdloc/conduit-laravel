@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Inter";
+        src: url("/fonts/Inter-VariableFont.ttf") format("truetype");
+        font-weight: 100 900;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "Sen";
+        src: url("/fonts/Sen-VariableFont.ttf") format("truetype");
+        font-weight: 100 900;
+        font-display: swap;
+    }
+}
